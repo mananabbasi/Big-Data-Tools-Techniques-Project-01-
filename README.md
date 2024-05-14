@@ -31,3 +31,22 @@ which can be tools such as Python’s matplotlib, Excel, Power Bi, Tableau, or a
 open-source tool you may find suitable. Using built-in visualizations directly is permitted, 
 it will however not yield a high number of marks. Your report needs to state the software 
 used to generate the visualization, otherwise a built-in visualization will be assumed.
+
+Extra Features
+Unzipping the data inside the Databricks system (You can unzip the file on your 
+computer before uploading it to Databricks. However, to earn extra marks, you 
+should be able to successfully unzip it within the Databricks environment. 
+Additionally, your code should be reusable for us, meaning it needs to include 
+proper cleanup procedures to remove any unnecessary files and folders from the 
+filesystem. This ensures our ability to run your code without errors.).
+➢Maximum 3 further analyses of the data, motivated by the questions asked (new 
+problem statements other than the above 5 problems)
+➢ Writing general and reusable code for example for different versions of data. We have 
+provided the clinicaltrial_2020 and clinicaltrial_2021 datasets only for this purpose 
+if you want (don’t forget, the main dataset is clinicaltrial_2023 and 2020 and 2021
+versions are just for extra mark and is not compulsory to use them).
+➢ Using more advance methods to solve the problems like defining and using user
+defined functions.
+➢ Successfully implementing Spark functions that you have not used in the workshop.
+➢ Creation of additional visualizations presenting useful information based on your 
+own exploration which is not covered by the problem statements
